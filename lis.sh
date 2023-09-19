@@ -29,3 +29,12 @@ sudo systemctl start libvirtd
 sudo systemctl status libvirtd
 sudo usermod -aG kvm $USER
 sudo usermod -aG libvirt $USER
+
+#install KiCad
+sudo add-apt-repository ppa:kicad/kicad-7.0-releases -y
+sudo apt update -y
+sudo apt install kicad -y
+
+#add User var to Git
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
