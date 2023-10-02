@@ -21,6 +21,7 @@ flatpak install flathub org.mozilla.Thunderbird -y
 flatpak install flathub org.kde.umbrello -y
 flatpak install flathub us.zoom.Zoom -y
 flatpak install flathub com.spotify.Client -y
+flatpak install flathub net.ankiweb.Anki -y
 
 #install qemu
 sudo apt install qemu-kvm virt-manager virtinst libvirt-clients bridge-utils libvirt-daemon-system -y
